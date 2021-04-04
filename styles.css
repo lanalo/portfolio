@@ -52,8 +52,13 @@ ul {
 
 /* Style the list inside the menu */
 nav ul {
-  list-style-type: none;
+  display: inline;
   padding: 0;
+  margin: 0px;
+}
+
+nav ul li{
+  display: inherit;
 }
 
 
