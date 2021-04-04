@@ -1,3 +1,4 @@
+/****************   Global settings   ****************/
 
 body {
   background: rgb(2,0,36);
@@ -5,11 +6,10 @@ body {
   color: white;
 }
 
-section {
-  height:80%;
-}
 
-/* Style the navigation menu */
+
+/****************   Navigation of the website   ****************/
+
 nav {
   background: #ccc;
   padding: 20px;
@@ -18,10 +18,6 @@ nav {
 
 ul {
   overflow: hidden;
-}
-
-.projects {
-  display: inline;
 }
 
 /* Style the links inside the navigation bar */
@@ -61,6 +57,32 @@ nav ul {
 }
 
 
+
+/****************   Content of the website   ****************/
+
+section {
+  height:80%;
+}
+
+.projects {
+  display: inline;
+}
+
+
+
+/****************   Footer of the website   ****************/
+
+/* Style the footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  bottom: 0;
+}
+
+
+
+/****************   Other - not yet in use   ****************/
 
 /* Hover options to photos */
 .hover-title {
@@ -102,13 +124,3 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     height: auto !important;
     margin-bottom: 0;
 }
-
-/* Style the footer */
-footer {
-  padding: 10px;
-  text-align: center;
-  color: white;
-  bottom: 0;
-}
-
-
