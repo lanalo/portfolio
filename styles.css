@@ -17,7 +17,7 @@ nav {
   padding: 20px;
 }
 /* Style the links inside the navigation bar */
-.nav-left a {
+.nav-left + .nav-right a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -29,13 +29,13 @@ nav {
 }
 
 /* Change the color of links on hover */
-.nav-left a:hover {
+.nav-left + .nav-right a:hover {
   background-color: #ddd;
   color: black;
 }
 
 /* Add a color to the active/current link */
-.nav-left a.active {
+.nav-left + .nav-right a.active {
   background-color: #4CAF50;
   color: white;
 }
