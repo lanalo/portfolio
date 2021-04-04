@@ -15,7 +15,6 @@ p {
 nav {
   background: #ccc;
   padding: 20px;
-  font-family: 'Dela Gothic One', cursive;
 }
 /* Style the links inside the navigation bar */
 .nav-left a {
@@ -25,6 +24,8 @@ nav {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Dela Gothic One', cursive;
+
 }
 
 /* Change the color of links on hover */
@@ -42,6 +43,8 @@ nav {
 /* Right-aligned section inside the top navigation */
 .nav-right {
   float: right;
+  font-family: 'Dela Gothic One', cursive;
+
 }
 
 /* Style the list inside the menu */
