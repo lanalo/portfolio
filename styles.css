@@ -5,6 +5,10 @@ body {
   color: white;
 }
 
+section {
+  height = 80%;
+}
+
 /* Style the navigation menu */
 nav {
   background: #ccc;
