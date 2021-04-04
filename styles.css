@@ -3,7 +3,6 @@ body {
   background: rgb(2,0,36);
   background: radial-gradient(circle, rgba(2,0,36,1) 10%, rgba(9,9,121,1) 71%, rgba(27,27,139,1) 100%);
   color: white;
-  height: 100%;
 }
 
 /* Style the navigation menu */
@@ -24,7 +23,7 @@ ul {
   text-decoration: none;
   font-size: 2em;
   font-family: 'Dela Gothic One', cursive;
-
+  color: white;
 }
 
 .nav-left a {
