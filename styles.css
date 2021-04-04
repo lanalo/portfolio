@@ -11,6 +11,11 @@ nav {
   padding: 20px;
   overflow: hidden;
 }
+
+ul {
+  overflow: hidden;
+}
+
 /* Style the links inside the navigation bar */
 .nav-left a {
   float: left;
