@@ -18,6 +18,8 @@ nav {
 
 ul {
   overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 /* Style the links inside the navigation bar */
@@ -48,12 +50,6 @@ ul {
 .nav-left a.active, .nav-right a.active {
   background-color: #4CAF50;
   color: white;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  padding: 0;
-  margin: 0;
 }
 
 
