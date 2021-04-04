@@ -17,15 +17,22 @@ ul {
 }
 
 /* Style the links inside the navigation bar */
-.nav-left a {
-  float: left;
+.nav-left a, .nav-right a {
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 2em;
   font-family: 'Dela Gothic One', cursive;
 
+}
+
+.nav-left a {
+  float: left;
+}
+
+.nav-right a {
+  float: right;
 }
 
 /* Change the color of links on hover */
@@ -38,17 +45,6 @@ ul {
 .nav-left a.active, .nav-right a.active {
   background-color: #4CAF50;
   color: white;
-}
-
-/* Right-aligned section inside the top navigation */
-.nav-right a {
-  float: right;
-  font-family: 'Dela Gothic One', cursive;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
 }
 
 /* Style the list inside the menu */
