@@ -18,7 +18,7 @@ nav {
   padding: 20px;
 }
 /* Style the links inside the navigation bar */
-.nav-left, .nav-right a {
+.nav-left a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -45,7 +45,11 @@ nav {
 .nav-right {
   float: right;
   font-family: 'Dela Gothic One', cursive;
-
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 /* Style the list inside the menu */
