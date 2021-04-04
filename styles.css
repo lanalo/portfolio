@@ -16,6 +16,10 @@ ul {
   overflow: hidden;
 }
 
+ul .projects {
+  display: inline;
+}
+
 /* Style the links inside the navigation bar */
 .nav-left a, .nav-right a {
   text-align: center;
