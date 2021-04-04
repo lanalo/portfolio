@@ -35,7 +35,7 @@ nav {
 }
 
 /* Right-aligned section inside the top navigation */
-.nav-right {
+.nav-right a {
   float: right;
   font-family: 'Dela Gothic One', cursive;
   color: #f2f2f2;
