@@ -118,7 +118,7 @@ footer {
     visibility: hidden;
 }
 
-body:not(.mobile) .hover-title:hover + .hover-image {
+.hover-title:hover + .hover-image {
     visibility: visible;
     pointer-events: none;
 }
