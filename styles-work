@@ -1,0 +1,148 @@
+
+
+/****************   Global settings   ****************/
+
+body {
+  background: white;
+  color: black;
+}
+
+
+
+/****************   Navigation of the website   ****************/
+
+nav {
+  padding: 20px;
+  overflow: hidden;
+}
+
+ul {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* Style the links inside the navigation bar */
+.nav-left a, .nav-right a {
+  text-align: center;
+  padding: 14px 32px;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Dela Gothic One', cursive;
+  color: blue;
+}
+
+.nav-left a {
+  float: left;
+}
+
+.nav-right a {
+  float: right;
+}
+
+/* Change the color of links on hover */
+.nav-left a:hover, .nav-right a:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.nav-left a.active, .nav-right a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+/****************   Content of the website   ****************/
+
+section {
+  height:70%;
+}
+
+.projects {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.projects ul{
+  display: inline;
+}
+
+.projects > li a{
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  padding-left: 2%;
+}
+
+
+.projects > li a:hover{
+  background-color: blue;
+  color: white;
+}
+
+.projects > li a.active{
+  background-color: blue;
+  color: white;
+}
+
+
+/****************   Footer of the website   ****************/
+
+/* Style the footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  color: black;
+  bottom: 0;
+}
+
+
+
+/****************   Other - not yet in use   ****************/
+
+/* Hover options to photos */
+.hover-title {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.hover-image {
+    visibility: hidden;
+}
+
+.hover-title:hover + .hover-image {
+    visibility: visible;
+    pointer-events: none;
+}
+
+.hover-image {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+/* Change width and height to scale images */
+    width: 90vw;
+    height: 90vh;
+}
+
+.hover-image img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 0;
+}
